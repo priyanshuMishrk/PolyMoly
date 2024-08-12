@@ -6,6 +6,7 @@ import SLC from "./Components/SecondLastComponent";
 import FinalComponent from "./Components/FinalComponent";
 import Footer from "./Components/Footer";
 import './App.css';
+import './Media.css'
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
           Get a Maths Diagnostic before we begin.
         </div>
 
-        <div className="line">
+        <div className="line fjfjfjff">
 
         </div>
 
