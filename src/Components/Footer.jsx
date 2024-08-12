@@ -25,7 +25,7 @@ const Footer = () => {
                 <img src={insta} alt="" className="insta2" />
 
                 <span className="ocassionalCopyright">
-                    all rights reserved: ollyana academy
+                    all rights reserved: pollyana academy
                 </span>
 
             </div>
