@@ -232,7 +232,7 @@
     }
 
     .gc20 .sticker img {
-        transform: translateY(-90%);
+        transform: translateY(-72%);
     }
 
     .gc20 {
@@ -270,5 +270,53 @@
         padding: .5vw 1vw;
         text-align: center;
         width: 42vw !important;
+    }
+
+    .gc20 .stickerText {
+        width: 100% !important;
+    }
+
+    .footerComponent {
+        background-color: #023020;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw !important;
+        color: white;
+        font-size: 2.6vw !important;
+        padding-top: 3vw !important;
+        padding-bottom: 5vw !important;
+        position: relative;
+    }
+
+    .insta1 {
+        width: 4vw !important;
+        height: 4vw !important;
+        object-fit: cover;
+    }
+
+    .blackbox {
+        width: 10vw !important;
+        height: 5vw !important;
+    }
+
+    .praikrma {
+        width: 10vw !important;
+        height: 6vw !important;
+    }
+
+    .insta2 {
+        width: 4vw !important;
+        height: 4vw !important;
+        object-fit: cover;
+    }
+
+    .ocassionalCopyright {
+        color: #F4F4F2;
+        font-size: 1.8vw !important;
+        position: absolute;
+        right: 4vw;
+        top: 66%;
     }
 }
