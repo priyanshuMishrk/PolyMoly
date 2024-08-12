@@ -1,38 +1,304 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.head {
+  width: 100%;
+  background-color: #FFCE32;
+  height: 16.5vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.head img:nth-child(1) {
+  width: 15vw;
+  height: auto;
+}
+
+.head img:nth-child(2) {
+  width: 2vw;
+  height: auto;
+}
+
+.heroSection{
+  height: 83.5vh;
+  width: 100%;
+  display: flex;
+  background-image: url('./Images/Pollymath_Landing\ page\ \(Copy\)\ \(1\).png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+@font-face {
+  font-family: 'PoetsenOne';
+  src: url('./Fonts//Poetsen_One/PoetsenOne-Regular.ttf');
+}
+
+.FHL {
+  font-family: 'PoetsenOne';
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('./Fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf');
+}
+
+.jjjl {
+  font-family: 'Nunito';
+}
+
+.heroSection .title{
+  font-size: 4vw;
+  width: 70%;
+  line-height: 4.1vw;
+  text-align: center;
+  font-weight: 400;
+  color: #023020;
+}
+
+.heroSection .descr{
+  font-size: 1.6vw;
+  margin-top: 1.2vw;
+  color : #606060;
+  font-weight: 600;
+}
+
+.hs2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4vw 3vw;
+  background-color: #FFCE32;
+}
+
+.content {
+  color: #023020;
+  font-size: 2.5vw;
+  width: 18%;
+}
+
+.line {
+  border: 1px solid #023020;
+  height: 25vh;
+  width: 0px;
+}
+
+.stickerSection{
+  display: flex;
+  flex-direction: column;
+}
+
+.stickerContent {
+  display: flex;
+  padding-top: 4vw;
+  padding-bottom: 1vw;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  gap: 5vw;
+}
+
+.gc50{
+  background-color: #023020;
+  background-image: none !important;
+  padding-bottom: 5vw !important;
+}
+
+.sticker img{
+    width: 20vw;
+    height: auto;
+    transform: translateY(20%);
+}
+
+.gc50 .sticker img {
+  transform: translateY(-35%);
+}
+
+.gc20 .sticker img {
+  transform: translateY(-45%);
+}
+
+.stickerContent {
+  background-image: url('./Images/cellBGCI.png');
+}
+
+.STH {
+  color: #023020;
+  font-size: 3.8vw;
+  margin-bottom: 1vw;
+  line-height: 3.8vw;
+}
+
+.gc50 .STH {
+  color: #FFFFFF;
+}
+
+.STC {
+  color: #606060;
+  font-size: 1.6vw;
+  line-height: 1.8vw;
+  font-weight: 400;
+
+}
+
+.gc50 .STC {
+  color: #BED3CB;
+}
+
+.stickerText{
+  width: 50%;
+  text-align: right;
+  transform: translateY(-20%);
+}
+
+.gc50 .stickerText {
+  transform: translateY(10%);
+}
+
+.gc50 .stickerText {
+  text-align: left;
+}
+
+.gc20{
+  padding-top: 8vw ;
+}
+
+.gynoxuuu {
+  padding-bottom: 0vw !important;
+}
+
+.slc {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-image: url('./Images/cellBGCI.png');
+  gap: 1vw;
+  align-items: center;
+  justify-content: center;
+  padding: auto;
+  align-content: center;
+  justify-items: center;
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  border-bottom: 5px solid #FFCE32;
+}
+
+.slcContent {
+  font-size: 1.6vw;
+  line-height: 1.8vw;
+  width: 15vw;
+  background-color: #FFCE32;
+  text-align: center;
+  height: 10vh;
+  padding: 0.5vw 1vw;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+}
+
+.finalComponent {
+  background-color: #F4F4F2;
+  display: flex;
+  padding: 4vw 5vw;
+  gap: 5vw;
+  align-items: center;
+
+}
+
+
+.finalComponent img {
+  border: 3px solid black;
+  border-radius: 25px;
+  width: 40vw;
+}
+
+.FCcontent {
+  display: flex;
+  flex-direction: column;
+}
+
+.FCC1 {
+  color: #023020;
+  font-size: 3vw;
+  line-height: 3.1vw;
+  font-weight: 400;
+  width: 75%;
+  margin-bottom: 1vw;
+}
+
+.FCC2{
+  border-image-slice: 1;
+  background-color: #d0a42c;
+  box-shadow: 10px 10px 15px -5px rgba(255, 255, 255, 0.5);
+  width: fit-content;
+  font-size: 2vw;
+  color: #FFFFFF;
+  padding: 0.8vw 1.6vw;
+  font-weight: 800;
+  border-radius: 10px;
+  position: relative;
+}
+
+.hooooooooooooo {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 25%;
+  left: 0;
+}
+
+.footerComponent {
+  background-color: #023020;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vw;
   color: white;
+  font-size: 1.6vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.insta1 {
+  width: 2vw;
+  height: 2vw;
+  object-fit: cover;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.insta2 {
+  width: 2vw;
+  height: 2vw;
+  object-fit: cover;
+}
+
+.blackbox {
+  width: 8vw;
+  height: 3vw;
+}
+
+.praikrma {
+  width: 8vw;
+  height: 4vw;
+}
+
+.lineInFoot{
+  height: 3vw;
+  width: 0%;
+  border: 1px solid white;
+}
+
+.ocassionalCopyright {
+  color: #F4F4F2;
+  font-size: 0.8vw;
+  position: absolute;
+  right: 4vw;
+  top: 45%;
 }
