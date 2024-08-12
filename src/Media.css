@@ -162,6 +162,8 @@
         font-size: 3vw !important;
         font-weight: 600;
         margin-top: 2.2vw !important;
+        max-width: 80%;
+        text-align: center;
     }
 
     .heroSection {
@@ -318,5 +320,9 @@
         position: absolute;
         right: 4vw;
         top: 66%;
+    }
+
+    .heroSection {
+        background-image: url('./Images/mediaDefinedCell.png') !important;
     }
 }
