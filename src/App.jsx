@@ -1,15 +1,32 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import StickerRow from "./Components/StickerRow";
 import SLC from "./Components/SecondLastComponent";
 import FinalComponent from "./Components/FinalComponent";
 import Footer from "./Components/Footer";
+import Loader from "./Components/Loader";
 import './App.css';
 import './Media.css'
 
 
 function App() {
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1000); // 1 second delay
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <Loader />;
+  } 
+
+
   return (
     <>
       <Header />

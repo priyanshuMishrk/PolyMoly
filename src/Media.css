@@ -139,12 +139,12 @@
 
 @media (max-width: 500px) {
     .head img:nth-child(1) {
-        width: 25vw !important;
+        width: 32vw !important;
         height: auto;
     }
 
     .head img:nth-child(2) {
-        width: 6vw !important;
+        width: 8vw !important;
         height: auto;
     }
 
@@ -178,10 +178,6 @@
         justify-items: center;
         align-content: center;
         gap: 2vw;
-    }
-
-    .fjfjfjff {
-        display: none;
     }
 
     .content {
@@ -231,6 +227,7 @@
         background-color: #023020;
         background-image: none !important;
         padding-bottom: 12vw !important;
+        flex-direction: column !important;
     }
 
     .gc20 .sticker img {
@@ -274,10 +271,6 @@
         width: 42vw !important;
     }
 
-    .gc20 .stickerText {
-        width: 100% !important;
-    }
-
     .footerComponent {
         background-color: #023020;
         width: 100%;
@@ -287,8 +280,8 @@
         gap: 2vw !important;
         color: white;
         font-size: 2.6vw !important;
-        padding-top: 3vw !important;
-        padding-bottom: 5vw !important;
+        padding-top: 6vw !important;
+        padding-bottom: 6vw !important;
         position: relative;
     }
 
@@ -323,6 +316,176 @@
     }
 
     .heroSection {
-        background-image: url('./Images/mediaDefinedCell.png') !important;
+        background-image: url('./Images/mediaDefined.png') !important;
     }
+
+    .heroSection .title {
+        color: #023020;
+        font-size: 11vw !important;
+        font-weight: 400;
+        line-height: 11.1vw !important;
+        text-align: center;
+        width: 58%;
+    }
+
+    .heroSection .descr {
+        color: #606060;
+        font-size: 3.5vw !important;
+        font-weight: 600;
+        margin-top: 2.2vw !important;
+        max-width: 55%;
+        text-align: center;
+    }
+
+    .hs2 {
+        grid-template-columns: repeat(1,1fr) !important;
+        height: 100vh;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+
+    .line {
+        border: 1px solid #023020;
+        height: 0px !important;
+        width: 60% !important;
+    }
+
+    .content {
+        color: #023020;
+        font-size: 5.3vw !important;
+        width: 48vw !important;
+        text-align: center;
+    }
+
+    .stickerContent{
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 100vh;
+        padding-top: 2vw !important;
+        padding-bottom: 1vw !important;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .sticker img{
+        transform: translateY(0) !important;
+    }
+
+    .stickerText {
+        transform: translateY(0) !important;
+        text-align: center !important;
+        width: 75% !important;
+    }
+
+    .STH {
+        color: #023020;
+        font-size: 9vw !important;
+        line-height: 9.2vw !important;
+        margin-bottom: 3vw;
+    }
+
+    .STC {
+        color: #606060;
+        font-size: 4vw !important;
+        font-weight: 400;
+        line-height: 4vw !important;
+    }
+
+    .sticker img {
+        width: 45vw !important;
+        height: auto;
+        transform: translateY(40%);
+    }
+
+    .slc {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .slcContent {
+        background-color: #ffce32;
+        display: flex;
+        font-size: 4vw !important;
+        font-weight: 800;
+        height: 11vh;
+        line-height: 4.2vw !important;
+        padding: .5vw 1vw;
+        text-align: center;
+        width: 80vw !important;
+    }
+
+    .finalComponent {
+        background-color: #F4F4F2;
+        display: flex;
+        padding: 4vw 5vw;
+        gap: 5vw;
+        align-items: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .finalComponent img {
+        border: 3px solid black;
+        border-radius: 25px;
+        width: 85vw;
+    }
+
+    .FCC1 {
+        color: #023020;
+        font-size: 13vw !important;
+        font-weight: 400;
+        line-height: 12.1vw !important;
+        margin-bottom: 5vw;
+        width: 96% !important;
+        text-align: center;
+    }
+
+    .FCcontent{
+        align-items: center;
+    }
+
+    .FCC2 {
+        border-image-slice: 1;
+        background-color: #d0a42c;
+        box-shadow: 10px 10px 15px -5px rgba(255, 255, 255, 0.5);
+        width: fit-content;
+        font-size: 6vw !important;
+        color: #FFFFFF;
+        padding: 1.8vw 2.6vw;
+        font-weight: 800;
+        border-radius: 4px !important;
+        position: relative;
+    }
+
+    .foot1Text {
+        position: absolute;
+        top: 20%;
+        left: 42%;
+        background-color: #023020 !important;
+        z-index: 22 !important;
+        padding-left: 0.5vw;
+        padding-right: 0.5vw;
+    }
+
+    .ocassionalCopyright {
+        color: #F4F4F2;
+        font-size: 1.8vw !important;
+        position: absolute;
+        right: 4vw;
+        top: 77%;
+    }
+
+    .borderFMO {
+        width: 45%;
+        border: 1px solid white;
+        height: 4.5vh;
+        display: block;
+        background-color: transparent;
+        position: absolute;
+        top: 30%;
+        left: 27.5%;
+        z-index: 1;
+    }
+
+
 }

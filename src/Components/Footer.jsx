@@ -12,6 +12,10 @@ const Footer = () => {
                     Follow me on
                 </span>
 
+                <span className="borderFMO">
+                    
+                </span>
+
                 <img src={insta} alt="" className="insta1" />
 
                 <img src={blackBox} alt="" className="blackbox" />
