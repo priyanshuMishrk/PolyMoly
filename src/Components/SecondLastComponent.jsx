@@ -3,7 +3,7 @@ import React from "react";
 const SLC = () => {
     return (
         <>
-            <div className="slc">
+            <div className="slc" id="3">
 
                 <div className="slcContent jjjl">
                     <div>

@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
     return (
         <>
-            <div className="heroSection">
+            <div className="heroSection" id="1">
                     <div className="title FHL">
                     Welcome to Pollyana Academy Bespoke Learning
                     </div>

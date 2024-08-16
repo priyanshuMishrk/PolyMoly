@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .head img:nth-child(1) {
   width: 15vw;
   height: auto;
@@ -299,8 +303,20 @@
   color: #F4F4F2;
   font-size: 0.8vw;
   position: absolute;
-  right: 4vw;
+  left: 4vw;
   top: 45%;
+}
+
+.ocassionalContactUs {
+  position: absolute;
+  right: 4vw;
+  top: 30%;
+  background-color: #FFCE32;
+  color: #023020;
+  font-weight: 900;
+  font-size: 1.25vw;
+  padding: 0.5vw 1.75vw;
+  border-radius: 5px;
 }
 
 .LoaderSection {
@@ -332,4 +348,129 @@
   0% { scale: 0.8; } /* Start off-screen */
   50% { scale : 1; } 
   100% { scale: 0.8;} /* Slide in from the left */
+}
+
+
+.headerPopup {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  z-index: 22;
+  height: 100vh;
+  background-color:#FFCE32;
+  right: -100%;
+  top: 0;
+  width: 35vw;
+  align-items: center;
+  gap: 2vw;
+  font-size: 4vw;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.822);
+  padding-top: 2vw;
+  padding-right: 3vw;
+  transition: all 1s ease-in-out;
+}
+
+.headerPopup span:nth-child(1){
+  align-self: flex-end;
+  justify-self: flex-end;
+
+}
+
+.hedOn {
+  right: 0% !important;
+}
+
+.cp {
+  cursor: pointer;
+}
+
+.contactForm {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spaceEmpty {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.26);
+  position: absolute;
+  cursor: pointer;
+}
+
+.contentFormOfCF {
+  background-color: white;
+  display: flex;
+  z-index: 3;
+  padding: 3vw 4vw;
+  gap: 4vw;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  border-radius: 10px;
+}
+
+.sayHi {
+  font-size: 3.5vw;
+  font-weight: 900;
+  color: #023020;
+}
+
+.theForum {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  width: 50%;
+}
+
+.linenascPascal {
+  width: 0px;
+  height: 48vh;
+  border: 1px solid rgb(114, 113, 113);
+}
+
+.theForum input{
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #B7B7B7;
+  font-size: 1vw;
+}
+
+.theForum textarea{
+  border: none;
+  outline: none;
+  border: 1px solid #B7B7B7;
+  font-size: 1vw;
+  resize: none;
+  border-radius: 10px;
+  height: 15vh;
+  padding: 0.5vw;
+}
+
+.theForum textarea::placeholder{
+  color: #B7B7B7 !important;
+}
+
+.theForum input::placeholder{
+  color: #B7B7B7 !important;
+}
+
+.theForum span {
+  background-color: #FFCE32;
+  color: #023020;
+  width: 100%;
+  padding: 0.5vw;
+  text-align: center;
+  font-weight: 900;
+  font-size: 1.2vw;
+  cursor: pointer;
 }

@@ -134,6 +134,43 @@
         right: 4vw;
         top: 45%;
     }
+
+    .footerComponent {
+        background-color: #023020;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw !important;
+        color: white;
+        font-size: 2.6vw !important;
+        padding-top: 2vw;
+        padding-bottom: 4vw;
+        position: relative;
+    }
+
+    .ocassionalCopyright {
+        color: #F4F4F2;
+        font-size: 1.8vw !important;
+        position: absolute;
+        right: 4vw;
+        top: 60%;
+    }
+
+    .sayHi {
+        display: none;
+    }
+
+    .linenascPascal{
+        display: none;
+    }
+
+    .theForum {
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+        width: 100%;
+    }
 }
 
 
@@ -486,5 +523,101 @@
         z-index: 1;
     }
 
+    .borderFMO {
+        width: 35%;
+        border: 1px solid white;
+        height: 4.5vh;
+        display: block;
+        background-color: transparent;
+        position: absolute;
+        top: 30%;
+        left: 33%;
+        z-index: 1;
+    }
 
+
+
+
+
+
+
+
+
+    .headerPopup {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        z-index: 22;
+        height: 100vh;
+        background-color: #FFCE32;
+        right: -130%;
+        top: 0;
+        width: 100%;
+        align-items: center;
+        gap: 2vw;
+        font-size: 10vw;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.822);
+        padding-top: 2vw;
+        padding-right: 3vw;
+        transition: all 1s ease-in-out;
+    }
+
+    .contentFormOfCF {
+        background-color: white;
+        display: flex;
+        z-index: 3;
+        padding: 5vw 6vw;
+        gap: 4vw;
+        align-items: center;
+        width: 85vw;
+        border-radius: 10px;
+        height: 50vh;
+    }
+
+    .theForum {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5vw;
+        width: 100%;
+        height: 100%;
+        justify-content: space-around;
+    }
+
+    .theForum textarea {
+        border: none;
+        outline: none;
+        border: 1px solid #B7B7B7;
+        font-size: 3vw;
+        resize: none;
+        border-radius: 10px;
+        height: 15vh;
+        padding: 1vw;
+    }
+
+    .theForum input {
+        font-size: 3vw;
+    }
+
+    .borderFMO {
+        width: 35%;
+        border: 1px solid white;
+        height: 4.5vh;
+        display: block;
+        background-color: transparent;
+        position: absolute;
+        top: 36%;
+        left: 33%;
+        z-index: 1;
+    }
+
+    .foot1Text {
+        position: absolute;
+        top: 25%;
+        left: 42%;
+        background-color: #023020 !important;
+        z-index: 22 !important;
+        padding-left: 0.5vw;
+        padding-right: 0.5vw;
+    }
 }

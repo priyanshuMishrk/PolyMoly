@@ -31,7 +31,7 @@ function App() {
     <>
       <Header />
       <Hero />
-      <div className="hs2 FHL">
+      <div className="hs2 FHL" id="2">
         <div className="content">
           A teaching experience that is all about you!
         </div>

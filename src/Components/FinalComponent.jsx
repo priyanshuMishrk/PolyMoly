@@ -2,6 +2,13 @@ import React from "react";
 import face from '../Images/faceOnfoot.png'
 
 const FinalComponent = () => {
+
+    function reder(){
+        const url = 'https://www.parikrmafoundation.org/volunteer/';
+        window.open(url, "_blank" )
+    }
+
+ 
     return (
         <>
             <div className="finalComponent">
@@ -10,7 +17,7 @@ const FinalComponent = () => {
                     <span className="FCC1 FHL">
                         5% of all session fees go to the Parikrma Humanity Foundation.
                     </span>
-                    <span className="FCC2 jjjl">
+                    <span className="FCC2 jjjl cp" onClick={reder}>
                         <span className="hooooooooooooo">
 
                         </span>
