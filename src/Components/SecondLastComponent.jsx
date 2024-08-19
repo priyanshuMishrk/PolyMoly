@@ -43,7 +43,7 @@ const SLC = () => {
                 <div className="slcContent jjjl">
                     <div>
 
-                        1:1 interaction,even in group sessions
+                        1:1 Interaction, even in group sessions
                     </div>
 
                 </div>
@@ -57,7 +57,7 @@ const SLC = () => {
                 <div className="slcContent jjjl">
                     <div>
 
-                        Confdence Building
+                        Confidence Building
                     </div>
 
                 </div>
