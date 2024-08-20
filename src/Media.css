@@ -720,4 +720,50 @@
     .img5 {
         display: hidden !important;
     }
+
+    .borderFMO {
+        width: 50%;
+        border: 1px solid white;
+        height: 5.5vh;
+        display: block;
+        background-color: transparent;
+        position: absolute;
+        top: 31%;
+        left: 25%;
+        z-index: 1;
+    }
+    
+    .ocassionalCopyright {
+        color: #F4F4F2;
+        font-size: 1.8vw !important;
+        position: absolute;
+        right: 4vw;
+        top: 22vw;
+    }
+    
+    .ocassionalContactUs {
+        position: absolute;
+        right: 3vw;
+        top: 73%;
+        background-color: #FFCE32;
+        color: #023020;
+        font-weight: 900;
+        font-size: 1.25vw;
+        padding: 0.5vw 1.75vw;
+        border-radius: 5px;
+    }
+    
+    
+    
+    .praikrma {
+        width: 16vw !important;
+        height: 13vw !important;
+    }
+    
+    
+    
+    .blackbox {
+        width: 16vw !important;
+        height: 10vw !important;
+    }
 }
