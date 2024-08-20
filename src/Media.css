@@ -1,4 +1,53 @@
 @media (max-width: 750px) {
+    .img1 {
+        top: 44.8px;
+        width: 100px;
+        height: 105px;
+        left: 124.4px;
+      }
+      
+      .img2 {
+        top: 62.8px;
+        width: 109px;
+        height: 42px;
+      }
+      
+      .img3 {
+        right: 10px;
+        height: 7vw;
+        width: 9vw;
+      }
+      
+      .img4 {
+        left: 1vw;
+        top: 18vw;
+        height: 6vw;
+      }
+      
+      
+      .img5 {
+        width: 14vw;
+        bottom: 1vw;
+        left: 10vw;
+      }
+      
+      .img6 {
+        bottom: 7vw;
+        width: 12vw;
+      }
+      
+      .img7 {
+          bottom: 1vw;
+          width: 10vw;
+          right: 50vw;
+      }
+      
+      .img8 {
+        right: 10vw;
+        bottom: 2vw;
+        width: 8vw;
+      }
+
     .head {
         width: 100%;
         background-color: #FFCE32;
@@ -352,9 +401,9 @@
         top: 66%;
     }
 
-    .heroSection {
+    /* .heroSection {
         background-image: url('./Images/mediaDefined.png') !important;
-    }
+    } */
 
     .heroSection .title {
         color: #023020;
@@ -623,5 +672,52 @@
         z-index: 22 !important;
         padding-left: 0.5vw;
         padding-right: 0.5vw;
+    }
+    
+    .img1 {
+        top: 21.8px;
+        width: 98px;
+        height: 103px;
+        left: 1.4px;
+    }
+
+    .img4 {
+        left: -1vw;
+        top: 40vw;
+        height: 15vw;
+    }
+
+    .img3 {
+        right: -2px;
+        height: 17vw;
+        width: 19vw;
+    }
+
+    .img2 {
+        top: 29.8px;
+        width: 109px;
+        height: 42px;
+    }
+
+    .img6 {
+        bottom: 9vw;
+        width: 23vw;
+        left: 1px;
+    }
+
+    .img8 {
+        right: 5vw;
+        bottom: 2vw;
+        width: 15vw;
+    }
+
+    .img7 {
+        bottom: 1vw;
+        width: 20vw;
+        right: 50vw;
+    }
+
+    .img5 {
+        display: hidden !important;
     }
 }

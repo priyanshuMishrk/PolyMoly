@@ -28,12 +28,13 @@ body {
   height: 83.5vh;
   width: 100%;
   display: flex;
-  background-image: url('./Images/Pollymath_Landing\ page\ \(Copy\)\ \(1\).png');
+  background-image: url('./Images/cellBGCI.png');
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 @font-face {
@@ -479,4 +480,63 @@ body {
   width: 47%;
   text-align: right;
   transform: translateY(-20%);
+}
+
+.imagessss {
+  position: absolute;
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+
+.img1 {
+  top: 44.8px;
+  width: 150px;
+  height: 155px;
+  left: 124.4px;
+}
+
+.img2 {
+  top: 62.8px;
+  width: 159px;
+  height: 62px;
+}
+
+.img3 {
+  right: 76px;
+  height: 7vw;
+  width: 9vw;
+}
+
+.img4 {
+  left: 1vw;
+  top: 18vw;
+  height: 6vw;
+}
+
+
+.img5 {
+  width: 14vw;
+  bottom: 1vw;
+  left: 10vw;
+}
+
+.img6 {
+  bottom: 7vw;
+  width: 12vw;
+}
+
+.img7 {
+    bottom: 1vw;
+    width: 10vw;
+    right: 50vw;
+}
+
+.img8 {
+  right: 10vw;
+  bottom: 2vw;
+  width: 8vw;
+}
+
+.visibleImg {
+  opacity: 1 !important;
 }
