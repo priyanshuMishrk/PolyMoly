@@ -29,7 +29,7 @@ const Hero = () => {
             setNumber2(newNumbers[1])
             setNumber3(newNumbers[2])
             setNumber4(newNumbers[3])
-        }, 3000); // Change numbers every second
+        }, 2000); // Change numbers every second
 
         // Cleanup interval on component unmount
         return () => clearInterval(intervalId);
