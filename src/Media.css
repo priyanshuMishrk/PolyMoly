@@ -224,6 +224,9 @@
 
 
 @media (max-width: 500px) {
+    html {
+        overflow-x:hidden;
+    }
     .head img:nth-child(1) {
         width: 32vw !important;
         height: auto;
