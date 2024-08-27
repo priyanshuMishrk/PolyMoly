@@ -31,7 +31,7 @@ const StickerRow = () => {
                             While we focus on competitive tests such as the KS2 SATs,
                             11+/13+, and GCSEs, due to the personalised nature of our
                             sessions, you can decide what you’d like to work on and we will
-                            help you defne your goals accordingly. Your success is shaped
+                            help you define your goals accordingly. Your success is shaped
                             by the objectives you set in your mission that drives you.
                         </div>
                     </div>
@@ -49,7 +49,7 @@ const StickerRow = () => {
                             How do we ensure success?
                         </div>
                         <div className="STC jjjl">
-                        Our true metric for success is defined when you change your fearful, draining, and unhappy relationship with maths into a transformational, empowering, and happy one by learning to truly notice the mathematical concepts in your life and the world around you. Our success is all based on your initial set by yourself at the beginning of your journey into a reality. It really is about Your Goals, Your Program, Your Discipline, Your Power, Your Strength, and Your Future!
+                        Our true metric for success is defined when you change your fearful, draining, and unhappy relationship with maths into a transformational, empowering, and happy one by learning to truly notice the mathematical concepts in your life and the world around you. Our success is all based on your initial diagnostic and how we work together in making goals set by yourself at the beginning of your journey into a reality. It really is about Your Goals, Your Program, Your Discipline, Your Power, Your Strength, and Your Future!
                         </div>
                     </div>
                 </div>
