@@ -17,12 +17,7 @@ const StickerRow = () => {
                             Why Pollyana Academy and why now?
                         </div>
                         <div className="STC jjjl">
-                            We have climbed many rocky mountains with students
-                            around the world for over half a decade now, and
-                            whilst making friendly maths companions along the
-                            thrive on our students happily reaching their peak
-                            way to overcome exam anxiety, and learn to look at the
-                            world through a mathematical lens.
+                        We have climbed many rocky mountains with students around the world for over half a decade now, and thrive on our students happily reaching their peak whilst making friendly maths companions along the way to overcome exam anxiety, and learn to look at the world through a mathematical lens.
                         </div>
                     </div>
                 </div>
@@ -54,15 +49,7 @@ const StickerRow = () => {
                             How do we ensure success?
                         </div>
                         <div className="STC jjjl">
-                            Our true metric for success is defined when you change your
-                            fearful, draining, and unhappy relationship with maths into
-                            to truly notice the mathematical concepts in your life and the
-                            a transformational, empowering, and happy one by learning
-                            diagnostic and how we work together in making the goals
-                            world around you. Our success is all based on your initial
-                            set by yourself at the beginning of your journey into a reality.
-                            It really is about Your Goals, Your Program, Your Discipline,
-                            Your Power, Your Strength, and Your Future!
+                        Our true metric for success is defined when you change your fearful, draining, and unhappy relationship with maths into a transformational, empowering, and happy one by learning to truly notice the mathematical concepts in your life and the world around you. Our success is all based on your initial set by yourself at the beginning of your journey into a reality. It really is about Your Goals, Your Program, Your Discipline, Your Power, Your Strength, and Your Future!
                         </div>
                     </div>
                 </div>
