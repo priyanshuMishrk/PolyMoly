@@ -36,7 +36,7 @@ const Hero = () => {
     }, []);
     return (
         <>
-            <div className="heroSection" id="1">
+            <div className="heroSection">
                 <div className="title FHL">
                     Welcome to Pollyana Academy Bespoke Learning
                 </div>

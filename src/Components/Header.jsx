@@ -16,7 +16,7 @@ const Header = () => {
     const [popUp , setPopUp] = useState(false)
     return (
         <>
-            <div className="head">
+            <div className="head" id="1">
                 <img src={PollyMIcon} alt="" />
                 <img src={hamCollasper} className="cp" onClick={() => setPopUp(true)} alt="" />
             </div>

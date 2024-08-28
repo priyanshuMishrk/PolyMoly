@@ -11,7 +11,7 @@ const FinalComponent = () => {
  
     return (
         <>
-            <div className="finalComponent">
+            <div className="finalComponent" id="3">
                 <img src={face} alt="" />
                 <div className="FCcontent">
                     <span className="FCC1 FHL">
