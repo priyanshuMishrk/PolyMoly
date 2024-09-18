@@ -4,7 +4,7 @@ import face from '../Images/faceOnfoot.png'
 const FinalComponent = () => {
 
     function reder(){
-        const url = 'https://www.parikrmafoundation.org/volunteer/';
+        const url = 'https://www.parikrmafoundation.org/';
         window.open(url, "_blank" )
     }
 
