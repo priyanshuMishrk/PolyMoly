@@ -22,14 +22,16 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
+  const [contactOn, setContactOn] = useState(false)
   if (loading) {
     return <Loader />;
   } 
 
 
+
   return (
     <>
-      <Header />
+      <Header setContactOn={setContactOn}  />
       <Hero />
       <div className="hs2 FHL" id="2">
         <div className="content">
@@ -63,7 +65,7 @@ function App() {
       <StickerRow />
       <SLC/>
       <FinalComponent/>
-      <Footer/>
+      <Footer contactOn={contactOn} setContactOn={setContactOn} />
     </>
   );
 }

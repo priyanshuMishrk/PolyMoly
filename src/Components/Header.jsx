@@ -3,7 +3,7 @@ import PollyMIcon from "./../Icons/pollyMath.svg"
 import hamCollasper from "./../Icons/hamburger.svg"
 import CloseIcon from '@mui/icons-material/Close';
 
-const Header = () => {
+const Header = ({ setContactOn }) => {
     
     function scroller(id){
         const element = document.getElementById(id);
@@ -11,6 +11,9 @@ const Header = () => {
       element.scrollIntoView({ behavior: 'smooth' });
     }
     setPopUp(false)
+    if (id === 4) {
+        setContactOn(true); // Open the contact form
+    }
     }    
 
     const [popUp , setPopUp] = useState(false)
